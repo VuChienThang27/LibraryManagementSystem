@@ -1,22 +1,6 @@
 # Library Management System - Java Swing + JDBC + SQL Server
 
-## 1. Chuan bi CSDL
-
-Mo SQL Server Management Studio va chay file:
-
-```text
-src/main/resources/sql/schema_seed.sql
-```
-
-Tai khoan mau:
-
-```text
-Manager: MaNV=NV002, password=123456
-Staff:   MaNV=NV001, password=123456
-Reader:  MaDG=DG001, password=123456
-```
-
-## 2. Cau hinh ket noi
+## 1. Cau hinh ket noi
 
 Sua file:
 
@@ -32,7 +16,7 @@ db.user=sa
 db.password=123456
 ```
 
-## 3. Chay ung dung
+## 2. Chay ung dung
 
 Can Java 17+ va Maven:
 
@@ -40,7 +24,7 @@ Can Java 17+ va Maven:
 mvn clean compile exec:java
 ```
 
-## 4. Background
+## 3. Background
 
 Neu co anh `1.png`, dat vao:
 
